@@ -25,7 +25,6 @@ public class ConnectionHandler implements  CompletionHandler<AsynchronousSocketC
             newAttach.isRead = true;
             newAttach.clientAddr = clientAddr;
 
-
             ByteBuffer out = ByteBuffer.allocateDirect(2048);
 
             client.write(out);

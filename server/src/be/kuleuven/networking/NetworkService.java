@@ -33,6 +33,7 @@ public class NetworkService
         private final Socket socket;
         Handler(Socket socket) { this.socket = socket; }
         public void run() {
+            int a = 0;
             // read and service request on socket
         }
 
